@@ -1,0 +1,158 @@
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.exe
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.deps.json
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.runtimeconfig.json
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.pdb
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.csproj.AssemblyReference.cache
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.Form1.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.csproj.GenerateResource.cache
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.AssemblyInfoInputs.cache
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.AssemblyInfo.cs
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.csproj.CoreCompileInputs.cache
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay.70A28D79.Up2Date
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\refint\Barangay_blotter.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.pdb
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.genruntimeconfig.cache
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\ref\Barangay_blotter.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.login.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.dll.config
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.registerForm.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.Properties.Resources.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.register_resident.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.update_resident.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.AddBlotterCase.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.editBlotterCase.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.sourcelink.json
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.About.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.csproj.ResolveComReference.cache
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Barangay_blotter\Barangay_blotter\bin\Debug\net6.0-windows\Guna.Charts.WinForms.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.exe
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.dll.config
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.deps.json
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.runtimeconfig.json
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.pdb
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Guna.Charts.WinForms.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.csproj.AssemblyReference.cache
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.csproj.ResolveComReference.cache
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.About.resources
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.AddBlotterCase.resources
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.editBlotterCase.resources
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.Form1.resources
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.login.resources
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.Properties.Resources.resources
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.registerForm.resources
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.register_resident.resources
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.update_resident.resources
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.csproj.GenerateResource.cache
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.AssemblyInfoInputs.cache
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.AssemblyInfo.cs
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.csproj.CoreCompileInputs.cache
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay.70A28D79.Up2Date
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\refint\Barangay_blotter.dll
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.pdb
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.genruntimeconfig.cache
+C:\Users\Fzkn4\Downloads\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\ref\Barangay_blotter.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.exe
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.dll.config
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.deps.json
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.runtimeconfig.json
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Barangay_blotter.pdb
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Guna.Charts.WinForms.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.csproj.AssemblyReference.cache
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.csproj.ResolveComReference.cache
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.About.resources
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.AddBlotterCase.resources
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.editBlotterCase.resources
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.Form1.resources
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.login.resources
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.loginFailed.resources
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.Properties.Resources.resources
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.registerForm.resources
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.register_resident.resources
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.update_resident.resources
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.csproj.GenerateResource.cache
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.AssemblyInfoInputs.cache
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.AssemblyInfo.cs
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.csproj.CoreCompileInputs.cache
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay.70A28D79.Up2Date
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\refint\Barangay_blotter.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.pdb
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.genruntimeconfig.cache
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\ref\Barangay_blotter.dll
