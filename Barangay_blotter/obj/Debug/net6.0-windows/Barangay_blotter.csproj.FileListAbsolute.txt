@@ -156,3 +156,4 @@ C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay
 C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.pdb
 C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.genruntimeconfig.cache
 C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\ref\Barangay_blotter.dll
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.sourcelink.json

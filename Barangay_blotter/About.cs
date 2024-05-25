@@ -14,6 +14,7 @@ namespace Barangay_blotter
             get_official_details();
         }
 
+        //kani nga function ang mo-pasud ug image padung sa database. 
         private void update_offiical()
         {
             MemoryStream ms = new MemoryStream();
@@ -31,7 +32,7 @@ namespace Barangay_blotter
                 cmd.Parameters.Add("@fname", MySqlDbType.String).Value = fname.Text;
                 cmd.Parameters.Add("@lname", MySqlDbType.String).Value = lname.Text;
                 cmd.Parameters.Add("@position", MySqlDbType.String).Value = position.Text;
-                cmd.Parameters.Add("@img", MySqlDbType.MediumBlob).Value = img;
+                cmd.Parameters.Add("@img", MySqlDbType.MediumBlob).Value = img;     //diri dapat ang datatype kay parehas sa datatype sa imong database. Sa akoa kay MediumBlob 
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Update Successful.");
@@ -56,6 +57,8 @@ namespace Barangay_blotter
             unselect_img();
             browse_img();
         }
+
+        //kani nga function ang mo-kuha ug img gikan sa local files
         private void browse_img()
         {
             open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp)|*.jpg; *.jpeg; *.gif; *.bmp";

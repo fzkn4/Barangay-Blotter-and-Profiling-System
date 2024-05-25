@@ -4,6 +4,7 @@ using MySql.Data.MySqlClient;
 using System.Configuration;
 using System.Data;
 using System.Globalization;
+using System.Reflection;
 using System.Text.RegularExpressions;
 
 namespace Barangay_blotter
@@ -11,6 +12,7 @@ namespace Barangay_blotter
     public partial class Form1 : Form
     {
         DataSet blotter_dataset = new DataSet();
+        DataTable blotter_data_table = new DataTable();
         int selected_row;
         static string con = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
 
@@ -408,7 +410,9 @@ namespace Barangay_blotter
 
         private void residents_table_cell_clicked(object sender, DataGridViewCellEventArgs e)
         {
-            if (residents_table.Rows[e.RowIndex].Cells[e.ColumnIndex].Value != null)
+            try
+            {
+                if (residents_table.Rows[e.RowIndex].Cells[e.ColumnIndex].Value != null)
             {
                 try
                 {
@@ -421,6 +425,12 @@ namespace Barangay_blotter
                     MessageBox.Show(ex.Message);
                 }
             }
+            }catch(Exception exx)
+            {
+
+            }
+
+            
         }
 
         private void delete_resident_data()
@@ -505,7 +515,7 @@ namespace Barangay_blotter
             try
             {
                 MySqlConnection con1 = new MySqlConnection(con);
-                MySqlCommand cmd = new MySqlCommand("SELECT caseID as 'Case ID', complainant_name as 'Complainant', respondent_name as 'Respondent', victim_name as 'Victim', blotter_description as 'Blotter/Incident', schedule_date as 'Schedule date', blotter_status as 'Status'  from blotter", con1);
+                MySqlCommand cmd = new MySqlCommand("select caseID, complainant_name, complainant_address, respondent_name, blotter_description, blotter_date, TIME_FORMAT(blotter_time, '%r') as blotter_time from blotter", con1);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 con1.Open();
                 DataSet ds = new DataSet();
@@ -514,32 +524,49 @@ namespace Barangay_blotter
                 blotter_dataset = ds;
                 con1.Close();
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                MessageBox.Show(e.Message);
+                Console.WriteLine(ex.Message);
             }
         }
 
         private void blotter_table_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
         {
-            blotter_table.Rows[0].Selected = false;
+            try
+            {
+                blotter_table.Rows[0].Selected = false;
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
         public static int blotter_id;
         private void blotter_table_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (blotter_table.Rows[e.RowIndex].Cells[e.ColumnIndex].Value != null)
+            try
             {
-                try
+                if (blotter_table.Rows[e.RowIndex].Cells[e.ColumnIndex].Value != null)
                 {
+                    try
+                    {
 
-                    blotter_id = Convert.ToInt32(blotter_table.Rows[e.RowIndex].Cells[0].Value.ToString());
+                        blotter_id = Convert.ToInt32(blotter_table.Rows[e.RowIndex].Cells[0].Value.ToString());
+
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
 
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
+
+            }
+            catch (Exception exx)
+            {
+
             }
         }
 
@@ -632,40 +659,10 @@ namespace Barangay_blotter
                 MessageBox.Show(ex.Message);
             }
         }
-        private void get_schedule_cases()
-        {
-            int id = 0;
-            MySqlConnection con1 = new MySqlConnection(con);
-            MySqlCommand cmd = new MySqlCommand();
-            con1.Open();
-            cmd.Connection = con1;
-            try
-            {
-                cmd.CommandText = "SELECT COUNT(caseID) as active from blotter where schedule_date>=@schedule_date";
-                cmd.CommandTimeout = 3600;
-                cmd.Parameters.Add("@schedule_date", MySqlDbType.Date).Value = DateTime.Now.ToString("yyyy-MM-dd");
-                MySqlDataReader dr = cmd.ExecuteReader();
-                if (dr.Read())
-                {
-
-                    id = dr.GetInt32("active");
-                    schdule_case_display.Text = number_formatter(id.ToString());
-
-                }
-                con1.Close();
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
         private void update_blotter_count()
         {
             update_blotter_table();
             get_active_cases();
-            get_schedule_cases();
             get_settled_cases();
             get_total_blotter();
         }
@@ -674,7 +671,7 @@ namespace Barangay_blotter
             DataTable dt = new DataTable();
             try
             {
-                string query = "SELECT * FROM blotter WHERE complainant_name LIKE CONCAT('%', @input, '%') OR respondent_name LIKE CONCAT('%', @input, '%') OR vicim_name LIKE CONCAT('%', @input, '%') OR caseID LIKE CONCAT('%', @input, '%') OR blotter_description LIKE CONCAT('%', @input, '%') OR blotter_status LIKE CONCAT('%', @input, '%') OR blotter_schedule LIKE CONCAT('%', @input, '%') order by caseID";
+                string query = "SELECT caseID, complainant_name, complainant_address, respondent_name, blotter_description, blotter_date, TIME_FORMAT(blotter_time, '%r') as 'blotter_time' FROM blotter WHERE complainant_name LIKE CONCAT('%', @input, '%') OR respondent_name LIKE CONCAT('%', @input, '%')  OR caseID LIKE CONCAT('%', @input, '%') OR blotter_description LIKE CONCAT('%', @input, '%') OR complainant_address LIKE CONCAT('%', @input, '%') order by caseID";
                 MySqlConnection conn1 = new MySqlConnection(con);
                 MySqlCommand cmd;
                 conn1.Open();
@@ -698,7 +695,7 @@ namespace Barangay_blotter
 
         private void blotter_searchbox_TextChanged(object sender, EventArgs e)
         {
-
+            search_blotter_case();
         }
 
         private void blotter_table_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -873,6 +870,7 @@ namespace Barangay_blotter
             official_id = 0;
         }
 
+        //kani nga function converts byte into image and then displays kung unsa to na image gikan sa imong database.
         private void display_brgy_offical(int id, Label display_name, Guna2PictureBox img)
         {
             Byte[] ImageByte = new byte[64];
@@ -885,10 +883,11 @@ namespace Barangay_blotter
                 cmd.CommandText = "SELECT fname, lname, img from brgy_officials where brgy_official_id=" + id + " ";
                 cmd.CommandTimeout = 3600;
                 MySqlDataReader dr = cmd.ExecuteReader();
+                
                 if (dr.Read())
                 {
                     display_name.Text = dr["lname"].ToString() + ", " + dr["fname"].ToString();
-                    ImageByte = (Byte[])(dr["img"]);
+                    ImageByte = (Byte[])(dr["img"]);    //getting the Blob value and passing into ImageByte(katong byte sa database gikan nga naka-save sa database)
 
                 }
                 if (ImageByte != null)
@@ -1064,7 +1063,7 @@ namespace Barangay_blotter
             try
             {
                 MySqlConnection con1 = new MySqlConnection(con);
-                MySqlCommand cmd = new MySqlCommand("SELECT caseID as 'Case ID', complainant_name as 'Complainant', respondent_name as 'Respondent', victim_name as 'Victim', blotter_description as 'Blotter/Incident', schedule_date as 'Schedule date', blotter_status as 'Status'  from blotter where schedule_date>=@schedule_date", con1);
+                MySqlCommand cmd = new MySqlCommand("SELECT caseID as 'Case ID', complainant_name as 'Complainant', respondent_name as 'Respondent', blotter_description as 'Blotter/Incident', schedule_date as 'Schedule date', blotter_status as 'Status'  from blotter where schedule_date>=@schedule_date", con1);
                 cmd.Parameters.Add("@schedule_date", MySqlDbType.Date).Value = DateTime.Now.ToString("yyyy-MM-dd");
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 con1.Open();
@@ -1078,11 +1077,6 @@ namespace Barangay_blotter
             {
                 MessageBox.Show("No current scheduled cases.");
             }
-        }
-
-        private void guna2Panel12_Click(object sender, EventArgs e)
-        {
-            scheduled_case_filter();
         }
     }
 }

@@ -12,11 +12,10 @@ namespace Barangay_blotter
         public editBlotterCase()
         {
             InitializeComponent();
-
-            blotter_status.Items.Add("Active");
-            blotter_status.Items.Add("Settled");
-            blotter_status.Items.Add("Unresolved");
             get_resident_details();
+            option.Items.Add("AM");
+            option.Items.Add("PM");
+            option.Text = "AM";
         }
 
 
@@ -28,17 +27,18 @@ namespace Barangay_blotter
             cmd.Connection = con1;
             try
             {
-                cmd.CommandText = "SELECT complainant_name, respondent_name, victim_name, schedule_date, blotter_description, blotter_status from blotter where caseID=" + Form1.blotter_id + "";
+                cmd.CommandText = "SELECT * from blotter where caseID=" + Form1.blotter_id + "";
                 cmd.CommandTimeout = 3600;
                 MySqlDataReader dr = cmd.ExecuteReader();
                 if (dr.Read())
                 {
                     set_name_credentials(dr["complainant_name"].ToString(), complainant_fname, complainant_lname);
                     set_name_credentials(dr["respondent_name"].ToString(), respondent_fname, responder_lname);
-                    set_name_credentials(dr["victim_name"].ToString(), victim_fname, victim_lname);
-                    blotter_schedule.Value = DateTime.Parse(dr["schedule_date"].ToString());
+                    complainant_address.Text = dr["complainant_address"].ToString();
+                    blotter_date.Value = Convert.ToDateTime(dr["blotter_date"].ToString());
+                    blotter_date.Value = Convert.ToDateTime(dr["blotter_time"].ToString());
                     blotter_description.Text = dr["blotter_description"].ToString();
-                    blotter_status.Text = dr["blotter_status"].ToString();
+                    timeBreaker(dr["blotter_time"].ToString());
 
                 }
                 con1.Close();
@@ -52,9 +52,10 @@ namespace Barangay_blotter
 
         private void set_name_credentials(string wholename, Guna2TextBox fname, Guna2TextBox lname)
         {
+            wholename = wholename.Trim(' ');
             string[] carry = wholename.Split(',');
-            fname.Text = carry[0];
-            lname.Text = carry[1];
+            fname.Text = carry[1];
+            lname.Text = carry[0];
         }
 
 
@@ -66,21 +67,21 @@ namespace Barangay_blotter
             try
             {
                 cmd = conn1.CreateCommand();
-                cmd.CommandText = "update blotter set complainant_name=@complainant_name, respondent_name=@respondent_name, victim_name=@victim_name, schedule_date=@schedule_date, blotter_description=@blotter_description, blotter_status=@blotter_status where caseID=" + Form1.blotter_id + "";
+                cmd.CommandText = "update blotter set complainant_name=@complainant_name, complainant_address=@complainant_address, complainant_bday=@complainant_bday, respondent_name=@respondent_name, blotter_description=@blotter_description, blotter_date=@blotter_date, blotter_time=@blotter_time where caseID=" + Form1.blotter_id + "";
                 cmd.Parameters.Add("@complainant_name", MySqlDbType.String).Value = first_letter_capital(complainant_lname.Text) + ", " + first_letter_capital(complainant_fname.Text);
+                cmd.Parameters.Add("@complainant_address", MySqlDbType.String).Value = complainant_address.Text;
+                cmd.Parameters.Add("@complainant_bday", MySqlDbType.Date).Value = complainant_bday.Value;
                 cmd.Parameters.Add("@respondent_name", MySqlDbType.String).Value = first_letter_capital(responder_lname.Text) + ", " + first_letter_capital(respondent_fname.Text);
-                cmd.Parameters.Add("@victim_name", MySqlDbType.String).Value = first_letter_capital(victim_lname.Text) + ", " + first_letter_capital(victim_fname.Text);
-                cmd.Parameters.Add("@schedule_date", MySqlDbType.DateTime).Value = blotter_schedule.Value;
-                cmd.Parameters.Add("@blotter_status", MySqlDbType.String).Value = blotter_status.Text;
                 cmd.Parameters.Add("@blotter_description", MySqlDbType.String).Value = blotter_description.Text;
-
+                cmd.Parameters.Add("@blotter_date", MySqlDbType.DateTime).Value = blotter_date.Value;
+                cmd.Parameters.Add("@blotter_time", MySqlDbType.DateTime).Value = Convert.ToDateTime(time_format(hour.Value.ToString(), minutes.Value.ToString(), option.Text));
                 cmd.ExecuteNonQuery();
 
-                MessageBox.Show("Updated Successfully.");
+
+                MessageBox.Show("Blotter recorded.");
                 Form1 main_page = new Form1();
 
             }
-
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
@@ -97,6 +98,38 @@ namespace Barangay_blotter
         {
             return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(input.ToLower());
         }
+        private string time_format(string h, string m, string type)
+        {
+            if (type == "AM")
+            {
+                return h + ":" + m + ":00";
+            }
+            else if (type == "PM")
+            {
+                int carry = Convert.ToInt32(h);
+                h = (carry + 12).ToString();
+                return h + ":" + m + ":00";
+            }
+            return "";
+        }
 
+        private void timeBreaker(string time)
+        {
+            if ((Convert.ToInt32(time[0].ToString() + time[1].ToString())) > 12)
+            {
+                hour.Value = (Convert.ToInt32(time[0].ToString() + time[1].ToString())) - 12;
+            }
+            else
+            {
+                hour.Value = (Convert.ToInt32(time[0].ToString() + time[1].ToString()));
+
+            }
+            minutes.Value = Convert.ToInt32(time[3].ToString() + time[4].ToString());
+        }
+
+        private void blotter_confirm_Click_1(object sender, EventArgs e)
+        {
+            update_resident_data();
+        }
     }
 }

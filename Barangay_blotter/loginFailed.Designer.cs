@@ -38,8 +38,8 @@
             // offical_display
             // 
             offical_display.BackColor = Color.Transparent;
-            offical_display.Font = new Font("Microsoft Tai Le", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            offical_display.ForeColor = Color.Black;
+            offical_display.Font = new Font("Microsoft Tai Le", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            offical_display.ForeColor = Color.FromArgb(69, 69, 69);
             offical_display.Location = new Point(0, 10);
             offical_display.Name = "offical_display";
             offical_display.Size = new Size(244, 75);

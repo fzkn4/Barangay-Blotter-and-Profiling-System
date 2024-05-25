@@ -44,6 +44,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             label = new Label();
             fname = new Guna.UI2.WinForms.Guna2TextBox();
@@ -65,7 +66,7 @@
             // 
             label.AutoSize = true;
             label.ForeColor = Color.FromArgb(69, 69, 69);
-            label.Location = new Point(62, 300);
+            label.Location = new Point(54, 300);
             label.Name = "label";
             label.Size = new Size(102, 15);
             label.TabIndex = 83;
@@ -73,32 +74,36 @@
             // 
             // fname
             // 
-            fname.BorderColor = Color.FromArgb(217, 221, 226);
+            fname.Animated = true;
+            fname.BorderColor = Color.FromArgb(167, 30, 52);
             fname.BorderRadius = 4;
-            fname.BorderThickness = 2;
             fname.CustomizableEdges = customizableEdges1;
             fname.DefaultText = "";
             fname.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             fname.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             fname.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             fname.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            fname.FocusedState.BorderColor = Color.FromArgb(206, 90, 103);
+            fname.FillColor = Color.FromArgb(252, 245, 237);
+            fname.FocusedState.BorderColor = Color.FromArgb(167, 30, 52);
             fname.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             fname.ForeColor = Color.FromArgb(69, 69, 69);
             fname.HoverState.BorderColor = Color.LightGray;
-            fname.Location = new Point(52, 149);
+            fname.Location = new Point(44, 149);
             fname.Name = "fname";
             fname.PasswordChar = '\0';
             fname.PlaceholderText = "";
             fname.SelectedText = "";
             fname.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            fname.Size = new Size(239, 44);
+            fname.Size = new Size(239, 36);
             fname.TabIndex = 62;
             fname.Click += fname_Click;
             // 
             // register
             // 
+            register.Animated = true;
+            register.BorderColor = Color.FromArgb(167, 30, 52);
             register.BorderRadius = 4;
+            register.BorderThickness = 1;
             register.CheckedState.FillColor = Color.FromArgb(206, 90, 103);
             register.CheckedState.ForeColor = Color.White;
             register.CustomizableEdges = customizableEdges3;
@@ -106,22 +111,26 @@
             register.DisabledState.CustomBorderColor = Color.DarkGray;
             register.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             register.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            register.FillColor = Color.FromArgb(206, 90, 103);
+            register.FillColor = Color.FromArgb(167, 30, 52);
             register.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            register.ForeColor = Color.White;
-            register.HoverState.FillColor = Color.White;
-            register.HoverState.ForeColor = Color.FromArgb(206, 90, 103);
-            register.Location = new Point(331, 365);
+            register.ForeColor = Color.FromArgb(252, 245, 237);
+            register.HoverState.BorderColor = Color.FromArgb(167, 30, 52);
+            register.HoverState.FillColor = Color.FromArgb(252, 245, 237);
+            register.HoverState.ForeColor = Color.FromArgb(167, 30, 52);
+            register.Location = new Point(323, 365);
             register.Name = "register";
+            register.PressedColor = Color.White;
+            register.PressedDepth = 20;
             register.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            register.Size = new Size(108, 45);
+            register.Size = new Size(108, 36);
             register.TabIndex = 73;
             register.Text = "Confirm";
             register.Click += register_Click;
             // 
             // cancel
             // 
-            cancel.BorderColor = Color.FromArgb(206, 90, 103);
+            cancel.Animated = true;
+            cancel.BorderColor = Color.FromArgb(167, 30, 52);
             cancel.BorderRadius = 4;
             cancel.BorderThickness = 1;
             cancel.CustomizableEdges = customizableEdges5;
@@ -129,15 +138,17 @@
             cancel.DisabledState.CustomBorderColor = Color.DarkGray;
             cancel.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             cancel.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            cancel.FillColor = Color.White;
+            cancel.FillColor = Color.FromArgb(252, 245, 237);
             cancel.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            cancel.ForeColor = Color.FromArgb(69, 69, 69);
-            cancel.HoverState.FillColor = Color.FromArgb(206, 90, 103);
+            cancel.ForeColor = Color.FromArgb(167, 30, 52);
+            cancel.HoverState.FillColor = Color.FromArgb(167, 30, 52);
             cancel.HoverState.ForeColor = Color.White;
-            cancel.Location = new Point(462, 365);
+            cancel.Location = new Point(454, 365);
             cancel.Name = "cancel";
+            cancel.PressedColor = Color.White;
+            cancel.PressedDepth = 20;
             cancel.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            cancel.Size = new Size(108, 45);
+            cancel.Size = new Size(108, 36);
             cancel.TabIndex = 74;
             cancel.Text = "Cancel";
             cancel.Click += cancel_Click;
@@ -157,7 +168,7 @@
             // 
             label7.AutoSize = true;
             label7.ForeColor = Color.FromArgb(69, 69, 69);
-            label7.Location = new Point(62, 213);
+            label7.Location = new Point(54, 213);
             label7.Name = "label7";
             label7.Size = new Size(63, 15);
             label7.TabIndex = 80;
@@ -165,26 +176,27 @@
             // 
             // lname
             // 
-            lname.BorderColor = Color.FromArgb(217, 221, 226);
+            lname.Animated = true;
+            lname.BorderColor = Color.FromArgb(167, 30, 52);
             lname.BorderRadius = 4;
-            lname.BorderThickness = 2;
             lname.CustomizableEdges = customizableEdges7;
             lname.DefaultText = "";
             lname.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             lname.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             lname.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             lname.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            lname.FocusedState.BorderColor = Color.FromArgb(206, 90, 103);
+            lname.FillColor = Color.FromArgb(252, 245, 237);
+            lname.FocusedState.BorderColor = Color.FromArgb(167, 30, 52);
             lname.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             lname.ForeColor = Color.FromArgb(69, 69, 69);
             lname.HoverState.BorderColor = Color.LightGray;
-            lname.Location = new Point(52, 231);
+            lname.Location = new Point(44, 231);
             lname.Name = "lname";
             lname.PasswordChar = '\0';
             lname.PlaceholderText = "";
             lname.SelectedText = "";
             lname.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            lname.Size = new Size(239, 44);
+            lname.Size = new Size(239, 36);
             lname.TabIndex = 64;
             lname.Click += lname_Click;
             // 
@@ -192,7 +204,7 @@
             // 
             label5.AutoSize = true;
             label5.ForeColor = Color.FromArgb(69, 69, 69);
-            label5.Location = new Point(62, 131);
+            label5.Location = new Point(54, 131);
             label5.Name = "label5";
             label5.Size = new Size(64, 15);
             label5.TabIndex = 77;
@@ -200,18 +212,19 @@
             // 
             // guna2Panel1
             // 
-            guna2Panel1.BackColor = Color.FromArgb(206, 90, 103);
+            guna2Panel1.BackColor = Color.FromArgb(167, 30, 52);
             guna2Panel1.Controls.Add(label1);
             guna2Panel1.CustomizableEdges = customizableEdges9;
             guna2Panel1.Dock = DockStyle.Top;
             guna2Panel1.Location = new Point(0, 0);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Panel1.Size = new Size(623, 84);
+            guna2Panel1.Size = new Size(605, 84);
             guna2Panel1.TabIndex = 75;
             // 
             // browse
             // 
+            browse.Animated = true;
             browse.BorderColor = Color.FromArgb(206, 90, 103);
             browse.BorderRadius = 4;
             browse.BorderThickness = 1;
@@ -220,12 +233,12 @@
             browse.DisabledState.CustomBorderColor = Color.DarkGray;
             browse.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             browse.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            browse.FillColor = Color.White;
+            browse.FillColor = Color.FromArgb(252, 245, 237);
             browse.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            browse.ForeColor = Color.FromArgb(69, 69, 69);
-            browse.HoverState.FillColor = Color.FromArgb(206, 90, 103);
-            browse.HoverState.ForeColor = Color.White;
-            browse.Location = new Point(393, 263);
+            browse.ForeColor = Color.FromArgb(167, 30, 52);
+            browse.HoverState.FillColor = Color.FromArgb(167, 30, 52);
+            browse.HoverState.ForeColor = Color.FromArgb(252, 245, 237);
+            browse.Location = new Point(385, 263);
             browse.Name = "browse";
             browse.ShadowDecoration.CustomizableEdges = customizableEdges12;
             browse.Size = new Size(120, 33);
@@ -238,9 +251,9 @@
             picture_official.BackColor = Color.Transparent;
             picture_official.BorderRadius = 10;
             picture_official.CustomizableEdges = customizableEdges13;
-            picture_official.FillColor = Color.FromArgb(206, 90, 103);
+            picture_official.FillColor = Color.FromArgb(167, 30, 52);
             picture_official.ImageRotate = 0F;
-            picture_official.Location = new Point(393, 134);
+            picture_official.Location = new Point(385, 134);
             picture_official.Name = "picture_official";
             picture_official.ShadowDecoration.BorderRadius = 10;
             picture_official.ShadowDecoration.Color = Color.Gray;
@@ -254,26 +267,27 @@
             // 
             // position
             // 
-            position.BorderColor = Color.FromArgb(217, 221, 226);
+            position.Animated = true;
+            position.BorderColor = Color.FromArgb(167, 30, 52);
             position.BorderRadius = 4;
-            position.BorderThickness = 2;
             position.CustomizableEdges = customizableEdges15;
             position.DefaultText = "";
             position.DisabledState.BorderColor = Color.FromArgb(217, 221, 226);
             position.DisabledState.FillColor = Color.White;
             position.DisabledState.ForeColor = Color.FromArgb(69, 69, 69);
             position.Enabled = false;
-            position.FocusedState.BorderColor = Color.FromArgb(206, 90, 103);
+            position.FillColor = Color.FromArgb(252, 245, 237);
+            position.FocusedState.BorderColor = Color.FromArgb(167, 30, 52);
             position.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             position.ForeColor = Color.FromArgb(69, 69, 69);
             position.HoverState.BorderColor = Color.LightGray;
-            position.Location = new Point(52, 318);
+            position.Location = new Point(44, 318);
             position.Name = "position";
             position.PasswordChar = '\0';
             position.PlaceholderText = "";
             position.SelectedText = "";
             position.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            position.Size = new Size(239, 44);
+            position.Size = new Size(239, 36);
             position.TabIndex = 106;
             position.Click += position_Click;
             // 
@@ -282,7 +296,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(252, 245, 237);
-            ClientSize = new Size(623, 454);
+            ClientSize = new Size(605, 435);
             Controls.Add(position);
             Controls.Add(picture_official);
             Controls.Add(browse);
@@ -295,6 +309,7 @@
             Controls.Add(label5);
             Controls.Add(guna2Panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "About";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Edit Officials";
