@@ -1,6 +1,8 @@
 using Guna.Charts.WinForms;
 using Guna.UI2.WinForms;
 using MySql.Data.MySqlClient;
+using Org.BouncyCastle.Operators;
+using System;
 using System.Configuration;
 using System.Data;
 using System.Globalization;
@@ -413,24 +415,25 @@ namespace Barangay_blotter
             try
             {
                 if (residents_table.Rows[e.RowIndex].Cells[e.ColumnIndex].Value != null)
-            {
-                try
                 {
+                    try
+                    {
 
-                    resident_id = Convert.ToInt32(residents_table.Rows[e.RowIndex].Cells[0].Value.ToString());
+                        resident_id = Convert.ToInt32(residents_table.Rows[e.RowIndex].Cells[0].Value.ToString());
 
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
                 }
             }
-            }catch(Exception exx)
+            catch (Exception exx)
             {
 
             }
 
-            
+
         }
 
         private void delete_resident_data()
@@ -515,7 +518,7 @@ namespace Barangay_blotter
             try
             {
                 MySqlConnection con1 = new MySqlConnection(con);
-                MySqlCommand cmd = new MySqlCommand("select caseID, complainant_name, complainant_address, respondent_name, blotter_description, blotter_date, TIME_FORMAT(blotter_time, '%r') as blotter_time from blotter", con1);
+                MySqlCommand cmd = new MySqlCommand("select caseID, complainant_name, complainant_address, respondent_name, blotter_incident, blotter_date, TIME_FORMAT(blotter_time, '%r') as blotter_time from blotter", con1);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 con1.Open();
                 DataSet ds = new DataSet();
@@ -543,7 +546,15 @@ namespace Barangay_blotter
             }
         }
 
-        public static int blotter_id;
+        public static int blotter_id = 0;
+        string Cname = "";
+        string Caddress = "";
+        string Cbday;
+        string Rname = "";
+        string dateOfIncident;
+        string timeOfIncident;
+        string blotter_inc = "";
+        string blotter_desc = "";
         private void blotter_table_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             try
@@ -554,7 +565,8 @@ namespace Barangay_blotter
                     {
 
                         blotter_id = Convert.ToInt32(blotter_table.Rows[e.RowIndex].Cells[0].Value.ToString());
-
+                        get_blotter_details();
+                        
                     }
                     catch (Exception ex)
                     {
@@ -578,60 +590,6 @@ namespace Barangay_blotter
         }
 
 
-        private void get_active_cases()
-        {
-            int id = 0;
-            MySqlConnection con1 = new MySqlConnection(con);
-            MySqlCommand cmd = new MySqlCommand();
-            con1.Open();
-            cmd.Connection = con1;
-            try
-            {
-                cmd.CommandText = "SELECT COUNT(caseID) as active from blotter where blotter_status='Active'";
-                cmd.CommandTimeout = 3600;
-                MySqlDataReader dr = cmd.ExecuteReader();
-                if (dr.Read())
-                {
-
-                    id = dr.GetInt32("active");
-                    active_case_display.Text = number_formatter(id.ToString());
-
-                }
-                con1.Close();
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-        private void get_settled_cases()
-        {
-            int id = 0;
-            MySqlConnection con1 = new MySqlConnection(con);
-            MySqlCommand cmd = new MySqlCommand();
-            con1.Open();
-            cmd.Connection = con1;
-            try
-            {
-                cmd.CommandText = "SELECT COUNT(caseID) as settled from blotter where blotter_status='Settled'";
-                cmd.CommandTimeout = 3600;
-                MySqlDataReader dr = cmd.ExecuteReader();
-                if (dr.Read())
-                {
-
-                    id = dr.GetInt32("settled");
-                    settled_case_display.Text = number_formatter(id.ToString());
-
-                }
-                con1.Close();
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
         private void get_total_blotter()
         {
             int id = 0;
@@ -662,8 +620,6 @@ namespace Barangay_blotter
         private void update_blotter_count()
         {
             update_blotter_table();
-            get_active_cases();
-            get_settled_cases();
             get_total_blotter();
         }
         private DataTable search_blotter_case()
@@ -883,7 +839,7 @@ namespace Barangay_blotter
                 cmd.CommandText = "SELECT fname, lname, img from brgy_officials where brgy_official_id=" + id + " ";
                 cmd.CommandTimeout = 3600;
                 MySqlDataReader dr = cmd.ExecuteReader();
-                
+
                 if (dr.Read())
                 {
                     display_name.Text = dr["lname"].ToString() + ", " + dr["fname"].ToString();
@@ -1058,24 +1014,98 @@ namespace Barangay_blotter
             }
         }
 
-        private void scheduled_case_filter()
+       
+
+        private void guna2Button5_Click(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Minimized;
+            var application = new Microsoft.Office.Interop.Word.Application();
+            var document = new Microsoft.Office.Interop.Word.Document();
+            document = application.Documents.Add(Template: @"C:\Users\Fzkn4\Documents\blotter_template.docx");
+            application.Visible = true;
+            application.Activate();
+
+            try
+                {
+                foreach (Microsoft.Office.Interop.Word.Field field in document.Fields)
+                {
+                    if (field.Code.Text.Contains("dateOfIncident"))
+                    {
+                        field.Select();
+                        application.Selection.TypeText(dateOfIncident);
+                    }
+                    else if (field.Code.Text.Contains("time_of_incident"))
+                    {
+                        field.Select();
+                        application.Selection.TypeText(timeOfIncident);
+                    }
+                
+                    else if (field.Code.Text.Contains("complainant"))
+                    {
+                        field.Select();
+                        application.Selection.TypeText(Cname);
+                    }
+                    else if (field.Code.Text.Contains("bday"))
+                    {
+                        field.Select();
+                        application.Selection.TypeText(Cbday);
+                    }
+
+                    else if (field.Code.Text.Contains("address")){
+                        field.Select();
+                        application.Selection.TypeText(Caddress);
+                    }
+                
+                    else if (field.Code.Text.Contains("respondent"))
+                    {
+                        field.Select();
+                        application.Selection.TypeText(Rname);
+                    }
+                
+                    else if (field.Code.Text.Contains("blotter_description"))
+                    {
+                        field.Select();
+                        application.Selection.TypeText(blotter_desc);
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void get_blotter_details()
+        {
+            MySqlConnection con1 = new MySqlConnection(con);
+            MySqlCommand cmd = new MySqlCommand();
+            con1.Open();
+            cmd.Connection = con1;
             try
             {
-                MySqlConnection con1 = new MySqlConnection(con);
-                MySqlCommand cmd = new MySqlCommand("SELECT caseID as 'Case ID', complainant_name as 'Complainant', respondent_name as 'Respondent', blotter_description as 'Blotter/Incident', schedule_date as 'Schedule date', blotter_status as 'Status'  from blotter where schedule_date>=@schedule_date", con1);
-                cmd.Parameters.Add("@schedule_date", MySqlDbType.Date).Value = DateTime.Now.ToString("yyyy-MM-dd");
-                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-                con1.Open();
-                DataSet ds = new DataSet();
-                da.Fill(ds, "blotter");
-                blotter_table.DataSource = ds.Tables["blotter"].DefaultView;
-                blotter_dataset = ds;
+                cmd.CommandText = "SELECT * from blotter where caseID=" + blotter_id + "";
+                cmd.CommandTimeout = 3600;
+                MySqlDataReader dr = cmd.ExecuteReader();
+                if (dr.Read())
+                {
+                    Cname = dr["complainant_name"].ToString();
+                    Cbday = Convert.ToDateTime(dr["complainant_bday"]).Date.ToString("MM-dd-yyyy");
+                    Caddress = dr["complainant_address"].ToString();
+                    Rname = dr["respondent_name"].ToString();
+                    blotter_desc = dr["blotter_description"].ToString();
+                    blotter_inc= dr["blotter_incident"].ToString();
+                    dateOfIncident = Convert.ToDateTime(dr["blotter_date"]).Date.ToString("MM-dd-yyyy");
+                    DateTime d = DateTime.Parse(dr["blotter_time"].ToString());
+                    timeOfIncident = d.ToString("hh:mm tt");
+
+                }
                 con1.Close();
             }
-            catch (Exception e)
+
+            catch (Exception ex)
             {
-                MessageBox.Show("No current scheduled cases.");
+                MessageBox.Show(ex.Message);
             }
         }
     }

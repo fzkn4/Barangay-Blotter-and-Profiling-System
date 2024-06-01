@@ -33,12 +33,13 @@ namespace Barangay_blotter
             try
             {
                 cmd = conn1.CreateCommand();
-                cmd.CommandText = "Insert INTO blotter(caseID, complainant_name, complainant_address, complainant_bday, respondent_name, blotter_description, blotter_status, blotter_date, blotter_time)VALUES(@caseID, @complainant_name, @complainant_address, @complainant_bday, @respondent_name, @blotter_description, @blotter_status, @blotter_date, TIME(@blotter_time))";
+                cmd.CommandText = "Insert INTO blotter(caseID, complainant_name, complainant_address, complainant_bday, respondent_name, blotter_incident, blotter_description, blotter_status, blotter_date, blotter_time)VALUES(@caseID, @complainant_name, @complainant_address, @complainant_bday, @respondent_name, @blotter_incident, @blotter_description, @blotter_status, @blotter_date, TIME(@blotter_time))";
                 cmd.Parameters.Add("@caseID", MySqlDbType.Int32).Value = set_blotter_id();
                 cmd.Parameters.Add("@complainant_name", MySqlDbType.String).Value = first_letter_capital(complainant_lname.Text) + ", " + first_letter_capital(complainant_fname.Text);
                 cmd.Parameters.Add("@complainant_address", MySqlDbType.String).Value = first_letter_capital(complainant_address.Text);
                 cmd.Parameters.Add("@complainant_bday", MySqlDbType.Date).Value = complainant_bday.Value;
                 cmd.Parameters.Add("@respondent_name", MySqlDbType.String).Value = first_letter_capital(responder_lname.Text) + ", " + first_letter_capital(respondent_fname.Text);
+                cmd.Parameters.Add("@blotter_incident", MySqlDbType.String).Value = blotter_incident.Text;
                 cmd.Parameters.Add("@blotter_description", MySqlDbType.String).Value = blotter_description.Text;
                 cmd.Parameters.Add("@blotter_status", MySqlDbType.String).Value = "Active";
                 cmd.Parameters.Add("@blotter_date", MySqlDbType.DateTime).Value = blotter_date.Value;

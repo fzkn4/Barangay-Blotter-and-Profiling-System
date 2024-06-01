@@ -64,6 +64,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddBlotterCase));
             guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             label13 = new Label();
@@ -96,6 +98,8 @@
             minutes = new Guna.UI2.WinForms.Guna2NumericUpDown();
             option = new Guna.UI2.WinForms.Guna2ComboBox();
             blotter_description = new Guna.UI2.WinForms.Guna2TextBox();
+            blotter_incident = new Guna.UI2.WinForms.Guna2TextBox();
+            label14 = new Label();
             guna2Panel3.SuspendLayout();
             guna2Panel1.SuspendLayout();
             guna2Panel2.SuspendLayout();
@@ -193,7 +197,7 @@
             complainant_address.SelectedText = "";
             complainant_address.ShadowDecoration.CustomizableEdges = customizableEdges4;
             complainant_address.Size = new Size(288, 36);
-            complainant_address.TabIndex = 81;
+            complainant_address.TabIndex = 3;
             // 
             // complainant_lname
             // 
@@ -287,13 +291,13 @@
             blotter_confirm.ForeColor = Color.FromArgb(252, 245, 237);
             blotter_confirm.HoverState.FillColor = Color.FromArgb(252, 245, 237);
             blotter_confirm.HoverState.ForeColor = Color.FromArgb(167, 30, 52);
-            blotter_confirm.Location = new Point(323, 596);
+            blotter_confirm.Location = new Point(407, 590);
             blotter_confirm.Name = "blotter_confirm";
             blotter_confirm.PressedColor = Color.White;
             blotter_confirm.PressedDepth = 20;
             blotter_confirm.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            blotter_confirm.Size = new Size(108, 35);
-            blotter_confirm.TabIndex = 12;
+            blotter_confirm.Size = new Size(80, 35);
+            blotter_confirm.TabIndex = 13;
             blotter_confirm.Text = "Confirm";
             blotter_confirm.Click += blotter_confirm_Click;
             // 
@@ -313,13 +317,13 @@
             blotter_cancel.ForeColor = Color.FromArgb(167, 30, 52);
             blotter_cancel.HoverState.FillColor = Color.FromArgb(167, 30, 52);
             blotter_cancel.HoverState.ForeColor = Color.White;
-            blotter_cancel.Location = new Point(551, 596);
+            blotter_cancel.Location = new Point(579, 590);
             blotter_cancel.Name = "blotter_cancel";
             blotter_cancel.PressedColor = Color.White;
             blotter_cancel.PressedDepth = 20;
             blotter_cancel.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            blotter_cancel.Size = new Size(108, 35);
-            blotter_cancel.TabIndex = 14;
+            blotter_cancel.Size = new Size(80, 35);
+            blotter_cancel.TabIndex = 15;
             blotter_cancel.Text = "Cancel";
             blotter_cancel.Click += blotter_cancel_Click;
             // 
@@ -377,7 +381,7 @@
             blotter_date.Name = "blotter_date";
             blotter_date.ShadowDecoration.CustomizableEdges = customizableEdges18;
             blotter_date.Size = new Size(193, 36);
-            blotter_date.TabIndex = 7;
+            blotter_date.TabIndex = 9;
             blotter_date.TextAlign = HorizontalAlignment.Center;
             blotter_date.Value = new DateTime(2024, 5, 24, 0, 0, 0, 0);
             // 
@@ -499,13 +503,13 @@
             blotter_clear.ForeColor = Color.FromArgb(167, 30, 52);
             blotter_clear.HoverState.FillColor = Color.FromArgb(167, 30, 52);
             blotter_clear.HoverState.ForeColor = Color.White;
-            blotter_clear.Location = new Point(437, 596);
+            blotter_clear.Location = new Point(493, 590);
             blotter_clear.Name = "blotter_clear";
             blotter_clear.PressedColor = Color.White;
             blotter_clear.PressedDepth = 20;
             blotter_clear.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            blotter_clear.Size = new Size(108, 35);
-            blotter_clear.TabIndex = 13;
+            blotter_clear.Size = new Size(80, 35);
+            blotter_clear.TabIndex = 14;
             blotter_clear.Text = "Clear";
             blotter_clear.Click += blotter_clear_Click;
             // 
@@ -514,7 +518,7 @@
             label12.AutoSize = true;
             label12.BackColor = Color.FromArgb(252, 245, 237);
             label12.ForeColor = Color.FromArgb(69, 69, 69);
-            label12.Location = new Point(381, 434);
+            label12.Location = new Point(381, 427);
             label12.Name = "label12";
             label12.Size = new Size(104, 15);
             label12.TabIndex = 83;
@@ -524,7 +528,7 @@
             // 
             label11.AutoSize = true;
             label11.ForeColor = Color.FromArgb(69, 69, 69);
-            label11.Location = new Point(62, 433);
+            label11.Location = new Point(62, 501);
             label11.Name = "label11";
             label11.Size = new Size(141, 15);
             label11.TabIndex = 91;
@@ -542,7 +546,7 @@
             hour.Name = "hour";
             hour.ShadowDecoration.CustomizableEdges = customizableEdges28;
             hour.Size = new Size(77, 34);
-            hour.TabIndex = 8;
+            hour.TabIndex = 10;
             hour.TextOffset = new Point(5, 0);
             hour.UpDownButtonFillColor = Color.FromArgb(167, 30, 52);
             // 
@@ -577,7 +581,7 @@
             guna2Panel4.Controls.Add(hour);
             guna2Panel4.Controls.Add(label9);
             guna2Panel4.CustomizableEdges = customizableEdges33;
-            guna2Panel4.Location = new Point(47, 451);
+            guna2Panel4.Location = new Point(47, 519);
             guna2Panel4.Name = "guna2Panel4";
             guna2Panel4.ShadowDecoration.CustomizableEdges = customizableEdges34;
             guna2Panel4.Size = new Size(293, 133);
@@ -595,7 +599,7 @@
             minutes.Name = "minutes";
             minutes.ShadowDecoration.CustomizableEdges = customizableEdges30;
             minutes.Size = new Size(77, 34);
-            minutes.TabIndex = 9;
+            minutes.TabIndex = 11;
             minutes.TextOffset = new Point(5, 0);
             minutes.UpDownButtonFillColor = Color.FromArgb(167, 30, 52);
             // 
@@ -617,7 +621,7 @@
             option.Name = "option";
             option.ShadowDecoration.CustomizableEdges = customizableEdges32;
             option.Size = new Size(89, 34);
-            option.TabIndex = 10;
+            option.TabIndex = 12;
             option.TextAlign = HorizontalAlignment.Center;
             // 
             // blotter_description
@@ -637,7 +641,7 @@
             blotter_description.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             blotter_description.ForeColor = Color.FromArgb(69, 69, 69);
             blotter_description.HoverState.BorderColor = Color.LightGray;
-            blotter_description.Location = new Point(371, 454);
+            blotter_description.Location = new Point(371, 447);
             blotter_description.Multiline = true;
             blotter_description.Name = "blotter_description";
             blotter_description.PasswordChar = '\0';
@@ -645,15 +649,54 @@
             blotter_description.SelectedText = "";
             blotter_description.ShadowDecoration.CustomizableEdges = customizableEdges36;
             blotter_description.Size = new Size(288, 102);
-            blotter_description.TabIndex = 81;
+            blotter_description.TabIndex = 8;
+            // 
+            // blotter_incident
+            // 
+            blotter_incident.Animated = true;
+            blotter_incident.BackColor = Color.FromArgb(252, 245, 237);
+            blotter_incident.BorderColor = Color.FromArgb(167, 30, 52);
+            blotter_incident.BorderRadius = 4;
+            blotter_incident.CustomizableEdges = customizableEdges37;
+            blotter_incident.DefaultText = "";
+            blotter_incident.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            blotter_incident.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            blotter_incident.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            blotter_incident.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            blotter_incident.FillColor = Color.FromArgb(252, 245, 237);
+            blotter_incident.FocusedState.BorderColor = Color.FromArgb(167, 30, 52);
+            blotter_incident.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            blotter_incident.ForeColor = Color.FromArgb(69, 69, 69);
+            blotter_incident.HoverState.BorderColor = Color.LightGray;
+            blotter_incident.Location = new Point(52, 447);
+            blotter_incident.Name = "blotter_incident";
+            blotter_incident.PasswordChar = '\0';
+            blotter_incident.PlaceholderText = "";
+            blotter_incident.SelectedText = "";
+            blotter_incident.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            blotter_incident.Size = new Size(288, 36);
+            blotter_incident.TabIndex = 7;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = Color.FromArgb(252, 245, 237);
+            label14.ForeColor = Color.FromArgb(69, 69, 69);
+            label14.Location = new Point(61, 429);
+            label14.Name = "label14";
+            label14.Size = new Size(88, 15);
+            label14.TabIndex = 82;
+            label14.Text = "Blotter Incident";
             // 
             // AddBlotterCase
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(252, 245, 237);
-            ClientSize = new Size(708, 663);
+            ClientSize = new Size(708, 668);
+            Controls.Add(blotter_incident);
             Controls.Add(blotter_description);
+            Controls.Add(label14);
             Controls.Add(label4);
             Controls.Add(label6);
             Controls.Add(guna2Panel4);
@@ -716,5 +759,7 @@
         private Guna.UI2.WinForms.Guna2ComboBox option;
         private Guna.UI2.WinForms.Guna2NumericUpDown minutes;
         private Guna.UI2.WinForms.Guna2TextBox blotter_description;
+        private Guna.UI2.WinForms.Guna2TextBox blotter_incident;
+        private Label label14;
     }
 }

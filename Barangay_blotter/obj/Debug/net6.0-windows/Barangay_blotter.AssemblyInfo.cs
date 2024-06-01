@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Barangay_blotter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04cc17b393c72cab4b5b04ad65d2e05beca97a7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2802b89d5e85097da4ae7a2993abf5ea2709e06")]
 [assembly: System.Reflection.AssemblyProductAttribute("Barangay_blotter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Barangay_blotter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

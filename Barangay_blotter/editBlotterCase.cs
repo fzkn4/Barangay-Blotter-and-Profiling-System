@@ -16,6 +16,8 @@ namespace Barangay_blotter
             option.Items.Add("AM");
             option.Items.Add("PM");
             option.Text = "AM";
+            hour.Maximum = 12;
+            minutes.Maximum = 59;
         }
 
 
@@ -38,6 +40,7 @@ namespace Barangay_blotter
                     blotter_date.Value = Convert.ToDateTime(dr["blotter_date"].ToString());
                     blotter_date.Value = Convert.ToDateTime(dr["blotter_time"].ToString());
                     blotter_description.Text = dr["blotter_description"].ToString();
+                    blotter_incident.Text = dr["blotter_incident"].ToString();
                     timeBreaker(dr["blotter_time"].ToString());
 
                 }
@@ -130,6 +133,11 @@ namespace Barangay_blotter
         private void blotter_confirm_Click_1(object sender, EventArgs e)
         {
             update_resident_data();
+        }
+
+        private void hour_ValueChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
