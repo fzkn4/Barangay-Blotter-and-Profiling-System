@@ -2,10 +2,15 @@ using Guna.Charts.WinForms;
 using Guna.UI2.WinForms;
 using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Operators;
+using Org.BouncyCastle.Security.Certificates;
+using Spire.Doc;
 using System;
 using System.Configuration;
 using System.Data;
+using System.Diagnostics;
+using System.Drawing.Printing;
 using System.Globalization;
+using System.IO;
 using System.Reflection;
 using System.Text.RegularExpressions;
 
@@ -51,6 +56,7 @@ namespace Barangay_blotter
             residents.Enabled = true;
             blotterRecords.Enabled = true;
             about.Enabled = true;
+            cert.Enabled = true;
         }
 
         private void home_Click(object sender, EventArgs e)
@@ -108,6 +114,17 @@ namespace Barangay_blotter
             about_panel.Visible = true;
         }
 
+        private void cert_Click(object sender, EventArgs e)
+        {
+            offical_display.Text = "BARANGAY BULATOK";
+            offical_display.Visible = true;
+
+            enableButtons();
+            cert.Enabled = false;
+            hidepanels();
+            cert_panel.Visible = true;
+        }
+
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             login loginform = new login();
@@ -136,6 +153,7 @@ namespace Barangay_blotter
             resident_panel.Visible = false;
             blotter_panel.Visible = false;
             about_panel.Visible = false;
+            cert_panel.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -213,7 +231,7 @@ namespace Barangay_blotter
             try
             {
                 MySqlConnection con1 = new MySqlConnection(con);
-                MySqlCommand cmd = new MySqlCommand("SELECT residentID as 'ID', fname as 'First Name', mname as 'Middle Name', lname as 'Last Name', age as 'Age',  birthdate as 'Birth date',  gender as 'Gender',  status as 'Status',  purok as 'Purok',  zone as 'Zone',  voter_status as 'Voter Status',  osy_status as 'OSY', religion as 'religion' from residents", con1);
+                MySqlCommand cmd = new MySqlCommand("SELECT residentID, fname , mname , lname , age ,  birthdate,  gender,  status ,  purok,  zone ,  voter_status ,  osy_status , religion from residents", con1);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 con1.Open();
                 DataSet ds = new DataSet();
@@ -566,7 +584,7 @@ namespace Barangay_blotter
 
                         blotter_id = Convert.ToInt32(blotter_table.Rows[e.RowIndex].Cells[0].Value.ToString());
                         get_blotter_details();
-                        
+
                     }
                     catch (Exception ex)
                     {
@@ -888,82 +906,9 @@ namespace Barangay_blotter
             return bm;
         }
 
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            // Replace "your_word_file.docx" with the path to your MS Word file
-            string wordFilePath = "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay_blotter\\Barangay_blotter\\resources\\OSY_certificate.docx";
-
-            // Use the System.Diagnostics.Process class to launch MS Word
-            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(wordFilePath)
-            {
-                UseShellExecute = true
-            });
-        }
-
-        private void guna2Button3_Click_1(object sender, EventArgs e)
-        {
-            // Replace "your_word_file.docx" with the path to your MS Word file
-            string wordFilePath = "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay_blotter\\Barangay_blotter\\resources\\certificate_of_indigency.docx";
-
-            // Use the System.Diagnostics.Process class to launch MS Word
-            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(wordFilePath)
-            {
-                UseShellExecute = true
-            });
-        }
-
-        private void guna2Button4_Click(object sender, EventArgs e)
-        {
-            // Replace "your_word_file.docx" with the path to your MS Word file
-            string wordFilePath = "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay_blotter\\Barangay_blotter\\resources\\barangay_clearance.docx";
-
-            // Use the System.Diagnostics.Process class to launch MS Word
-            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(wordFilePath)
-            {
-                UseShellExecute = true
-            });
-        }
-
-        public static List<object> GetChartBlotterData()
-        {
-            string query = "SELECT blotter_date, COUNT(caseID) as 'id' from blotter WHERE blotter_status = 'Active' GROUP BY caseID";
-            List<object> chartData = new List<object>();
-            chartData.Add(new object[]
-            {
-        "blotter_date", "id"
-            });
-            MySqlConnection conn = new MySqlConnection(con);
-
-
-            MySqlCommand cmd = new MySqlCommand(query);
-            {
-                cmd.CommandType = CommandType.Text;
-                cmd.Connection = conn;
-                conn.Open();
-                MySqlDataReader sdr = cmd.ExecuteReader();
-                {
-                    while (sdr.Read())
-                    {
-                        chartData.Add(new
-                        {
-                            date = Convert.ToDateTime(sdr["blotter_date"].ToString()),
-                            id = Convert.ToInt32(sdr["id"].ToString())
-                        });
-                    }
-                }
-                conn.Close();
-                return chartData;
-            }
-        }
-
         private void Form1_Load_1(object sender, EventArgs e)
         {
 
-        }
-
-        private void active_case_display_Click(object sender, EventArgs e)
-        {
-            active_case_filter();
         }
 
 
@@ -988,11 +933,6 @@ namespace Barangay_blotter
             }
         }
 
-        private void guna2Panel9_Click(object sender, EventArgs e)
-        {
-            settled_case_filter();
-        }
-
         private void settled_case_filter()
         {
             try
@@ -1014,7 +954,7 @@ namespace Barangay_blotter
             }
         }
 
-       
+
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
@@ -1026,7 +966,7 @@ namespace Barangay_blotter
             application.Activate();
 
             try
-                {
+            {
                 foreach (Microsoft.Office.Interop.Word.Field field in document.Fields)
                 {
                     if (field.Code.Text.Contains("dateOfIncident"))
@@ -1039,7 +979,7 @@ namespace Barangay_blotter
                         field.Select();
                         application.Selection.TypeText(timeOfIncident);
                     }
-                
+
                     else if (field.Code.Text.Contains("complainant"))
                     {
                         field.Select();
@@ -1051,17 +991,18 @@ namespace Barangay_blotter
                         application.Selection.TypeText(Cbday);
                     }
 
-                    else if (field.Code.Text.Contains("address")){
+                    else if (field.Code.Text.Contains("address"))
+                    {
                         field.Select();
                         application.Selection.TypeText(Caddress);
                     }
-                
+
                     else if (field.Code.Text.Contains("respondent"))
                     {
                         field.Select();
                         application.Selection.TypeText(Rname);
                     }
-                
+
                     else if (field.Code.Text.Contains("blotter_description"))
                     {
                         field.Select();
@@ -1094,7 +1035,7 @@ namespace Barangay_blotter
                     Caddress = dr["complainant_address"].ToString();
                     Rname = dr["respondent_name"].ToString();
                     blotter_desc = dr["blotter_description"].ToString();
-                    blotter_inc= dr["blotter_incident"].ToString();
+                    blotter_inc = dr["blotter_incident"].ToString();
                     dateOfIncident = Convert.ToDateTime(dr["blotter_date"]).Date.ToString("MM-dd-yyyy");
                     DateTime d = DateTime.Parse(dr["blotter_time"].ToString());
                     timeOfIncident = d.ToString("hh:mm tt");
@@ -1107,6 +1048,25 @@ namespace Barangay_blotter
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void osy_print_Click(object sender, EventArgs e)
+        {
+            osy_window window = new osy_window();
+            window.ShowDialog();
+
+        }
+
+        private void indigency_print_Click(object sender, EventArgs e)
+        {
+            indigency_cert window = new indigency_cert();
+            window.ShowDialog();
+        }
+
+        private void brgyClearance_print_Click(object sender, EventArgs e)
+        {
+            brgy_clearance_window window = new brgy_clearance_window();
+            window.ShowDialog();
         }
     }
 }

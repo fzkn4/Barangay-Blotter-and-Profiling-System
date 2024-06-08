@@ -50,6 +50,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "FreeSpire.Doc": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
             "Guna.Charts.WinForms": {
               "target": "Package",
               "version": "[1.0.9, )"

@@ -7,16 +7,25 @@
     <Compile Update="AddBlotterCase.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="brgy_clearance_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="editBlotterCase.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="indigency_cert.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="loginFailed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="osy_window.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="registerForm.cs">
