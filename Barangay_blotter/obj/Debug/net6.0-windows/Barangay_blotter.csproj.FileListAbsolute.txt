@@ -166,3 +166,4 @@ C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay
 C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.osy_window.resources
 C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.brgy_clearance_window.resources
 C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.indigency_cert.resources
+C:\Users\Fzkn4\Music\Fzkn4\Barangay-Blotter-and-Profiling-System-master\Barangay_blotter\obj\Debug\net6.0-windows\Barangay_blotter.sample.resources

@@ -34,6 +34,9 @@
     <Compile Update="register_resident.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="sample.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="update_resident.cs">
       <SubType>Form</SubType>
     </Compile>

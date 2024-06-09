@@ -46,7 +46,12 @@ namespace Barangay_blotter
             update_blotter_count();
             display_all_officials();
 
-            chart.init_chart(summary_chart, line_dataset);
+
+            //year init
+            set_blotter_years();
+            year_option.Text = DateTime.Now.Year.ToString();
+
+
         }
 
 
@@ -1067,6 +1072,41 @@ namespace Barangay_blotter
         {
             brgy_clearance_window window = new brgy_clearance_window();
             window.ShowDialog();
+        }
+
+        private void year_option_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            chart.init_map();
+
+            chart.init_chart(summary_chart, line_dataset, year_option.Text);
+        }
+
+        private void set_blotter_years()
+        {
+            MySqlConnection con1 = new MySqlConnection(con);
+            MySqlCommand cmd = new MySqlCommand();
+            con1.Open();
+            cmd.Connection = con1;
+            try
+            {
+                cmd.CommandText = "SELECT year(blotter_date) as 'year' from blotter";
+                cmd.CommandTimeout = 3600;
+                MySqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+
+                    if (!year_option.Items.Contains(dr["year"].ToString()))
+                    {
+                        year_option.Items.Add(dr["year"].ToString());
+                    }
+                }
+                con1.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

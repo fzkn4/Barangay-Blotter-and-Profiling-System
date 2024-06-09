@@ -88,6 +88,7 @@
             username.FillColor = Color.FromArgb(252, 245, 237);
             username.FocusedState.BorderColor = Color.FromArgb(167, 30, 52);
             username.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            username.ForeColor = Color.FromArgb(167, 30, 52);
             username.HoverState.BorderColor = Color.FromArgb(125, 137, 149);
             username.Location = new Point(43, 125);
             username.Name = "username";
@@ -155,6 +156,7 @@
             password.FillColor = Color.FromArgb(252, 245, 237);
             password.FocusedState.BorderColor = Color.FromArgb(167, 30, 52);
             password.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            password.ForeColor = Color.FromArgb(167, 30, 52);
             password.HoverState.BorderColor = Color.FromArgb(125, 137, 149);
             password.Location = new Point(43, 202);
             password.Name = "password";
