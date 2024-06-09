@@ -1,65 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\",
+  "WorkspaceRootPath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|c:\\users\\fzkn4\\music\\fzkn4\\barangay-blotter-and-profiling-system-master\\barangay_blotter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\chart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\barangay-blotter-and-profiling-system-master\\barangay_blotter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\chart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\chart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|c:\\users\\fzkn4\\music\\fzkn4\\barangay-blotter-and-profiling-system-master\\barangay_blotter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|c:\\users\\fzkn4\\music\\fzkn4\\barangay-blotter-and-profiling-system-master\\barangay_blotter\\sample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\sample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\sample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\addblottercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\addblottercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\addblottercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|c:\\users\\fzkn4\\music\\fzkn4\\barangay-blotter-and-profiling-system-master\\barangay_blotter\\addblottercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\addblottercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\addblottercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\indigency_cert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\indigency_cert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\indigency_cert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\indigency_cert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\indigency_cert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\indigency_cert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\brgy_clearance_window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\brgy_clearance_window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\brgy_clearance_window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\editblottercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\editblottercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\editblottercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\editblottercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\editblottercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\editblottercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\loginfailed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\barangay_blotter\\loginfailed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3228D6B-1C1B-49AD-A6C2-FB5A68E8907E}|Barangay_blotter\\Barangay_blotter.csproj|solutionrelative:barangay_blotter\\loginfailed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -70,28 +70,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Program.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\Program.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Program.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Program.cs",
               "RelativeToolTip": "Barangay_blotter\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:31:36.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T03:31:36.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Form1.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\Form1.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Form1.cs [Design]",
               "RelativeToolTip": "Barangay_blotter\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T00:12:44.427Z",
@@ -99,13 +98,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Form1.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\Form1.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Form1.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Form1.cs",
               "RelativeToolTip": "Barangay_blotter\\Form1.cs",
-              "ViewState": "AQIAADgEAAAAAAAAAAAAAEYEAAAVAAAA",
+              "ViewState": "AQIAADgEAAAAAAAAAAAAAEgEAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T16:38:28.488Z",
               "EditorCaption": ""
@@ -114,9 +113,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "chart.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\chart.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\chart.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\chart.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\chart.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\chart.cs",
               "RelativeToolTip": "Barangay_blotter\\chart.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAAwDUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -127,48 +126,45 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "login.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\login.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\login.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\login.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\login.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\login.cs",
               "RelativeToolTip": "Barangay_blotter\\login.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAApwE8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T02:13:40.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T02:13:40.034Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "sample.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\sample.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\sample.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\sample.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\sample.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\sample.cs",
               "RelativeToolTip": "Barangay_blotter\\sample.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:40:54.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T03:40:54.56Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AddBlotterCase.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\AddBlotterCase.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\AddBlotterCase.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\AddBlotterCase.cs",
               "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\AddBlotterCase.cs [Design]",
-              "RelativeToolTip": "Barangay_blotter\\AddBlotterCase.cs [Design]",
+              "RelativeToolTip": "..\\..\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\AddBlotterCase.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:11:49.788Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-09T03:11:49.788Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "indigency_cert.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\indigency_cert.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\indigency_cert.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\indigency_cert.cs",
               "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\indigency_cert.cs [Design]",
-              "RelativeToolTip": "Barangay_blotter\\indigency_cert.cs [Design]",
+              "RelativeToolTip": "..\\..\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\indigency_cert.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T05:25:17.366Z"
             },
@@ -176,9 +172,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "indigency_cert.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\indigency_cert.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\indigency_cert.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\indigency_cert.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\indigency_cert.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\indigency_cert.cs",
               "RelativeToolTip": "Barangay_blotter\\indigency_cert.cs",
               "ViewState": "AQIAAFsAAAAAAAAAAAAiwGUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -188,9 +184,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "brgy_clearance_window.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\brgy_clearance_window.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\brgy_clearance_window.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\brgy_clearance_window.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\brgy_clearance_window.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\brgy_clearance_window.cs",
               "RelativeToolTip": "Barangay_blotter\\brgy_clearance_window.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -200,9 +196,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\App.config",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\App.config",
               "RelativeDocumentMoniker": "Barangay_blotter\\App.config",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\App.config",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\App.config",
               "RelativeToolTip": "Barangay_blotter\\App.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -212,23 +208,22 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "AddBlotterCase.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\AddBlotterCase.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\AddBlotterCase.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\AddBlotterCase.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\AddBlotterCase.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\AddBlotterCase.cs",
               "RelativeToolTip": "Barangay_blotter\\AddBlotterCase.cs",
               "ViewState": "AQIAAF4AAAAAAAAAAADgv2UAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T05:42:10.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T05:42:10.501Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "editBlotterCase.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\editBlotterCase.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\editBlotterCase.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\editBlotterCase.cs",
               "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\editBlotterCase.cs [Design]",
-              "RelativeToolTip": "Barangay_blotter\\editBlotterCase.cs [Design]",
+              "RelativeToolTip": "..\\..\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\editBlotterCase.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-01T04:02:57.463Z"
             },
@@ -236,9 +231,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "editBlotterCase.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\editBlotterCase.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\editBlotterCase.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\editBlotterCase.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\editBlotterCase.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\editBlotterCase.cs",
               "RelativeToolTip": "Barangay_blotter\\editBlotterCase.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAIwDEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -248,9 +243,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "loginFailed.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\loginFailed.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\loginFailed.cs",
               "RelativeDocumentMoniker": "Barangay_blotter\\loginFailed.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\loginFailed.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\loginFailed.cs",
               "RelativeToolTip": "Barangay_blotter\\loginFailed.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

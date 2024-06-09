@@ -2334,11 +2334,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Barangay_blotter.csproj",
+      "projectUniqueName": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Barangay_blotter.csproj",
       "projectName": "Barangay_blotter",
-      "projectPath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Barangay_blotter.csproj",
+      "projectPath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\Barangay_blotter.csproj",
       "packagesPath": "C:\\Users\\Fzkn4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\obj\\",
+      "outputPath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Barangay-Blotter-and-Profiling-System-master\\Barangay_blotter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

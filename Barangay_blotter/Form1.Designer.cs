@@ -53,6 +53,14 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -77,14 +85,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges67 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges68 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges57 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -169,6 +169,13 @@
             pictureBox1 = new PictureBox();
             guna2Panel16 = new Guna.UI2.WinForms.Guna2Panel();
             about_panel = new Guna.UI2.WinForms.Guna2Panel();
+            cert_panel = new Guna.UI2.WinForms.Guna2Panel();
+            label10 = new Label();
+            label6 = new Label();
+            label4 = new Label();
+            brgyClearance_print = new Guna.UI2.WinForms.Guna2Button();
+            indigency_print = new Guna.UI2.WinForms.Guna2Button();
+            osy_print = new Guna.UI2.WinForms.Guna2Button();
             label29 = new Label();
             treasurer = new Label();
             treasurer_pic = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -203,13 +210,6 @@
             captain = new Label();
             captain_pic = new Guna.UI2.WinForms.Guna2PictureBox();
             edit_officials = new Guna.UI2.WinForms.Guna2Button();
-            cert_panel = new Guna.UI2.WinForms.Guna2Panel();
-            label10 = new Label();
-            label6 = new Label();
-            label4 = new Label();
-            brgyClearance_print = new Guna.UI2.WinForms.Guna2Button();
-            indigency_print = new Guna.UI2.WinForms.Guna2Button();
-            osy_print = new Guna.UI2.WinForms.Guna2Button();
             resident_panel = new Guna.UI2.WinForms.Guna2Panel();
             guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             residents_table = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -281,6 +281,7 @@
             guna2Panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             about_panel.SuspendLayout();
+            cert_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)treasurer_pic).BeginInit();
             ((System.ComponentModel.ISupportInitialize)sk_chairperson_pic).BeginInit();
             ((System.ComponentModel.ISupportInitialize)secretary_pic).BeginInit();
@@ -292,7 +293,6 @@
             ((System.ComponentModel.ISupportInitialize)kagawad2_pic).BeginInit();
             ((System.ComponentModel.ISupportInitialize)kagawad3_pic).BeginInit();
             ((System.ComponentModel.ISupportInitialize)captain_pic).BeginInit();
-            cert_panel.SuspendLayout();
             resident_panel.SuspendLayout();
             guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)residents_table).BeginInit();
@@ -572,6 +572,141 @@
             about_panel.TabIndex = 33;
             about_panel.Paint += about_panel_Paint;
             about_panel.MouseClick += about_panel_clicked;
+            // 
+            // cert_panel
+            // 
+            cert_panel.Controls.Add(label10);
+            cert_panel.Controls.Add(label6);
+            cert_panel.Controls.Add(label4);
+            cert_panel.Controls.Add(brgyClearance_print);
+            cert_panel.Controls.Add(indigency_print);
+            cert_panel.Controls.Add(osy_print);
+            cert_panel.CustomizableEdges = customizableEdges55;
+            cert_panel.Location = new Point(165, 70);
+            cert_panel.Name = "cert_panel";
+            cert_panel.ShadowDecoration.CustomizableEdges = customizableEdges56;
+            cert_panel.Size = new Size(1101, 628);
+            cert_panel.TabIndex = 131;
+            // 
+            // label10
+            // 
+            label10.BackColor = Color.FromArgb(252, 245, 237);
+            label10.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.ForeColor = Color.FromArgb(167, 30, 52);
+            label10.Location = new Point(777, 349);
+            label10.Name = "label10";
+            label10.Size = new Size(208, 31);
+            label10.TabIndex = 80;
+            label10.Text = "Barangay Clearance";
+            label10.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            label6.BackColor = Color.FromArgb(252, 245, 237);
+            label6.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.ForeColor = Color.FromArgb(167, 30, 52);
+            label6.Location = new Point(461, 349);
+            label6.Name = "label6";
+            label6.Size = new Size(208, 29);
+            label6.TabIndex = 79;
+            label6.Text = "Certificate of Indigency";
+            label6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            label4.BackColor = Color.FromArgb(252, 245, 237);
+            label4.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.ForeColor = Color.FromArgb(167, 30, 52);
+            label4.Location = new Point(149, 349);
+            label4.Name = "label4";
+            label4.Size = new Size(208, 29);
+            label4.TabIndex = 78;
+            label4.Text = "OSY Certificate";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // brgyClearance_print
+            // 
+            brgyClearance_print.Animated = true;
+            brgyClearance_print.BorderColor = Color.FromArgb(167, 30, 52);
+            brgyClearance_print.BorderRadius = 4;
+            brgyClearance_print.BorderThickness = 1;
+            brgyClearance_print.CustomizableEdges = customizableEdges49;
+            brgyClearance_print.DisabledState.BorderColor = Color.DarkGray;
+            brgyClearance_print.DisabledState.CustomBorderColor = Color.DarkGray;
+            brgyClearance_print.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            brgyClearance_print.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            brgyClearance_print.FillColor = Color.FromArgb(252, 245, 237);
+            brgyClearance_print.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            brgyClearance_print.ForeColor = Color.FromArgb(206, 90, 103);
+            brgyClearance_print.HoverState.FillColor = Color.FromArgb(167, 30, 52);
+            brgyClearance_print.HoverState.ForeColor = Color.FromArgb(252, 245, 237);
+            brgyClearance_print.HoverState.Image = (Image)resources.GetObject("resource.Image");
+            brgyClearance_print.Image = (Image)resources.GetObject("brgyClearance_print.Image");
+            brgyClearance_print.ImageSize = new Size(64, 64);
+            brgyClearance_print.Location = new Point(772, 210);
+            brgyClearance_print.Name = "brgyClearance_print";
+            brgyClearance_print.PressedColor = Color.White;
+            brgyClearance_print.PressedDepth = 20;
+            brgyClearance_print.ShadowDecoration.CustomizableEdges = customizableEdges50;
+            brgyClearance_print.Size = new Size(217, 183);
+            brgyClearance_print.TabIndex = 38;
+            brgyClearance_print.Click += brgyClearance_print_Click;
+            // 
+            // indigency_print
+            // 
+            indigency_print.Animated = true;
+            indigency_print.BorderColor = Color.FromArgb(167, 30, 52);
+            indigency_print.BorderRadius = 4;
+            indigency_print.BorderThickness = 1;
+            indigency_print.CustomizableEdges = customizableEdges51;
+            indigency_print.DisabledState.BorderColor = Color.DarkGray;
+            indigency_print.DisabledState.CustomBorderColor = Color.DarkGray;
+            indigency_print.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            indigency_print.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            indigency_print.FillColor = Color.FromArgb(252, 245, 237);
+            indigency_print.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            indigency_print.ForeColor = Color.FromArgb(206, 90, 103);
+            indigency_print.HoverState.FillColor = Color.FromArgb(167, 30, 52);
+            indigency_print.HoverState.ForeColor = Color.FromArgb(252, 245, 237);
+            indigency_print.HoverState.Image = (Image)resources.GetObject("resource.Image1");
+            indigency_print.Image = (Image)resources.GetObject("indigency_print.Image");
+            indigency_print.ImageSize = new Size(64, 64);
+            indigency_print.Location = new Point(456, 208);
+            indigency_print.Name = "indigency_print";
+            indigency_print.PressedColor = Color.White;
+            indigency_print.PressedDepth = 20;
+            indigency_print.ShadowDecoration.CustomizableEdges = customizableEdges52;
+            indigency_print.Size = new Size(217, 183);
+            indigency_print.TabIndex = 37;
+            indigency_print.Click += indigency_print_Click;
+            // 
+            // osy_print
+            // 
+            osy_print.Animated = true;
+            osy_print.BorderColor = Color.FromArgb(167, 30, 52);
+            osy_print.BorderRadius = 4;
+            osy_print.BorderThickness = 1;
+            osy_print.CustomizableEdges = customizableEdges53;
+            osy_print.DisabledState.BorderColor = Color.DarkGray;
+            osy_print.DisabledState.CustomBorderColor = Color.DarkGray;
+            osy_print.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            osy_print.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            osy_print.FillColor = Color.FromArgb(252, 245, 237);
+            osy_print.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            osy_print.ForeColor = Color.FromArgb(206, 90, 103);
+            osy_print.HoverState.FillColor = Color.FromArgb(167, 30, 52);
+            osy_print.HoverState.ForeColor = Color.FromArgb(252, 245, 237);
+            osy_print.HoverState.Image = (Image)resources.GetObject("resource.Image2");
+            osy_print.Image = (Image)resources.GetObject("osy_print.Image");
+            osy_print.ImageSize = new Size(64, 64);
+            osy_print.Location = new Point(145, 207);
+            osy_print.Name = "osy_print";
+            osy_print.PressedColor = Color.White;
+            osy_print.PressedDepth = 20;
+            osy_print.ShadowDecoration.CustomizableEdges = customizableEdges54;
+            osy_print.Size = new Size(217, 183);
+            osy_print.TabIndex = 36;
+            osy_print.Click += osy_print_Click;
             // 
             // label29
             // 
@@ -1061,141 +1196,6 @@
             edit_officials.Text = "Edit";
             edit_officials.Click += edit_officials_Click;
             // 
-            // cert_panel
-            // 
-            cert_panel.Controls.Add(label10);
-            cert_panel.Controls.Add(label6);
-            cert_panel.Controls.Add(label4);
-            cert_panel.Controls.Add(brgyClearance_print);
-            cert_panel.Controls.Add(indigency_print);
-            cert_panel.Controls.Add(osy_print);
-            cert_panel.CustomizableEdges = customizableEdges55;
-            cert_panel.Location = new Point(165, 70);
-            cert_panel.Name = "cert_panel";
-            cert_panel.ShadowDecoration.CustomizableEdges = customizableEdges56;
-            cert_panel.Size = new Size(1101, 628);
-            cert_panel.TabIndex = 131;
-            // 
-            // label10
-            // 
-            label10.BackColor = Color.FromArgb(252, 245, 237);
-            label10.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label10.ForeColor = Color.FromArgb(206, 90, 103);
-            label10.Location = new Point(777, 349);
-            label10.Name = "label10";
-            label10.Size = new Size(208, 31);
-            label10.TabIndex = 80;
-            label10.Text = "Barangay Clearance";
-            label10.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label6
-            // 
-            label6.BackColor = Color.FromArgb(252, 245, 237);
-            label6.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.ForeColor = Color.FromArgb(206, 90, 103);
-            label6.Location = new Point(461, 349);
-            label6.Name = "label6";
-            label6.Size = new Size(208, 29);
-            label6.TabIndex = 79;
-            label6.Text = "Certificate of Indigency";
-            label6.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label4
-            // 
-            label4.BackColor = Color.FromArgb(252, 245, 237);
-            label4.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.ForeColor = Color.FromArgb(206, 90, 103);
-            label4.Location = new Point(149, 349);
-            label4.Name = "label4";
-            label4.Size = new Size(208, 29);
-            label4.TabIndex = 78;
-            label4.Text = "OSY Certificate";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // brgyClearance_print
-            // 
-            brgyClearance_print.Animated = true;
-            brgyClearance_print.BorderColor = Color.FromArgb(167, 30, 52);
-            brgyClearance_print.BorderRadius = 4;
-            brgyClearance_print.BorderThickness = 1;
-            brgyClearance_print.CustomizableEdges = customizableEdges49;
-            brgyClearance_print.DisabledState.BorderColor = Color.DarkGray;
-            brgyClearance_print.DisabledState.CustomBorderColor = Color.DarkGray;
-            brgyClearance_print.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            brgyClearance_print.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            brgyClearance_print.FillColor = Color.FromArgb(252, 245, 237);
-            brgyClearance_print.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            brgyClearance_print.ForeColor = Color.FromArgb(206, 90, 103);
-            brgyClearance_print.HoverState.FillColor = Color.FromArgb(206, 90, 103);
-            brgyClearance_print.HoverState.ForeColor = Color.FromArgb(252, 245, 237);
-            brgyClearance_print.HoverState.Image = (Image)resources.GetObject("resource.Image");
-            brgyClearance_print.Image = (Image)resources.GetObject("brgyClearance_print.Image");
-            brgyClearance_print.ImageSize = new Size(64, 64);
-            brgyClearance_print.Location = new Point(772, 210);
-            brgyClearance_print.Name = "brgyClearance_print";
-            brgyClearance_print.PressedColor = Color.White;
-            brgyClearance_print.PressedDepth = 20;
-            brgyClearance_print.ShadowDecoration.CustomizableEdges = customizableEdges50;
-            brgyClearance_print.Size = new Size(217, 183);
-            brgyClearance_print.TabIndex = 38;
-            brgyClearance_print.Click += brgyClearance_print_Click;
-            // 
-            // indigency_print
-            // 
-            indigency_print.Animated = true;
-            indigency_print.BorderColor = Color.FromArgb(167, 30, 52);
-            indigency_print.BorderRadius = 4;
-            indigency_print.BorderThickness = 1;
-            indigency_print.CustomizableEdges = customizableEdges51;
-            indigency_print.DisabledState.BorderColor = Color.DarkGray;
-            indigency_print.DisabledState.CustomBorderColor = Color.DarkGray;
-            indigency_print.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            indigency_print.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            indigency_print.FillColor = Color.FromArgb(252, 245, 237);
-            indigency_print.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            indigency_print.ForeColor = Color.FromArgb(206, 90, 103);
-            indigency_print.HoverState.FillColor = Color.FromArgb(206, 90, 103);
-            indigency_print.HoverState.ForeColor = Color.FromArgb(252, 245, 237);
-            indigency_print.HoverState.Image = (Image)resources.GetObject("resource.Image1");
-            indigency_print.Image = (Image)resources.GetObject("indigency_print.Image");
-            indigency_print.ImageSize = new Size(64, 64);
-            indigency_print.Location = new Point(456, 208);
-            indigency_print.Name = "indigency_print";
-            indigency_print.PressedColor = Color.White;
-            indigency_print.PressedDepth = 20;
-            indigency_print.ShadowDecoration.CustomizableEdges = customizableEdges52;
-            indigency_print.Size = new Size(217, 183);
-            indigency_print.TabIndex = 37;
-            indigency_print.Click += indigency_print_Click;
-            // 
-            // osy_print
-            // 
-            osy_print.Animated = true;
-            osy_print.BorderColor = Color.FromArgb(167, 30, 52);
-            osy_print.BorderRadius = 4;
-            osy_print.BorderThickness = 1;
-            osy_print.CustomizableEdges = customizableEdges53;
-            osy_print.DisabledState.BorderColor = Color.DarkGray;
-            osy_print.DisabledState.CustomBorderColor = Color.DarkGray;
-            osy_print.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            osy_print.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            osy_print.FillColor = Color.FromArgb(252, 245, 237);
-            osy_print.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            osy_print.ForeColor = Color.FromArgb(206, 90, 103);
-            osy_print.HoverState.FillColor = Color.FromArgb(206, 90, 103);
-            osy_print.HoverState.ForeColor = Color.FromArgb(252, 245, 237);
-            osy_print.HoverState.Image = (Image)resources.GetObject("resource.Image2");
-            osy_print.Image = (Image)resources.GetObject("osy_print.Image");
-            osy_print.ImageSize = new Size(64, 64);
-            osy_print.Location = new Point(145, 207);
-            osy_print.Name = "osy_print";
-            osy_print.PressedColor = Color.White;
-            osy_print.PressedDepth = 20;
-            osy_print.ShadowDecoration.CustomizableEdges = customizableEdges54;
-            osy_print.Size = new Size(217, 183);
-            osy_print.TabIndex = 36;
-            osy_print.Click += osy_print_Click;
-            // 
             // resident_panel
             // 
             resident_panel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
@@ -1657,7 +1657,7 @@
             blotter_table.RowsDefaultCellStyle = dataGridViewCellStyle8;
             blotter_table.RowTemplate.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             blotter_table.RowTemplate.Height = 35;
-            blotter_table.Size = new Size(1003, 452);
+            blotter_table.Size = new Size(1003, 443);
             blotter_table.TabIndex = 36;
             blotter_table.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             blotter_table.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -2263,6 +2263,7 @@
             guna2Panel17.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             about_panel.ResumeLayout(false);
+            cert_panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)treasurer_pic).EndInit();
             ((System.ComponentModel.ISupportInitialize)sk_chairperson_pic).EndInit();
             ((System.ComponentModel.ISupportInitialize)secretary_pic).EndInit();
@@ -2274,7 +2275,6 @@
             ((System.ComponentModel.ISupportInitialize)kagawad2_pic).EndInit();
             ((System.ComponentModel.ISupportInitialize)kagawad3_pic).EndInit();
             ((System.ComponentModel.ISupportInitialize)captain_pic).EndInit();
-            cert_panel.ResumeLayout(false);
             resident_panel.ResumeLayout(false);
             guna2Panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)residents_table).EndInit();
